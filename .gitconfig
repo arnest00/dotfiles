@@ -1,0 +1,15 @@
+[core]
+	excludesfile = ~/.gitignore
+	editor = codium --wait
+[user]
+	name = Osmond
+	email = osmond@heysparkbox.com
+	signingkey = EC8AA531
+[commit]
+	gpgsign = true
+	template = ~/.gitmessage
+[alias]
+  pushf = push --force-with-lease
+[init]
+	defaultBranch = main
+  
